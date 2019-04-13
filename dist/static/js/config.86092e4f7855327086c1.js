@@ -1,0 +1,2 @@
+webpackJsonp([5],{yabs:function(e,a,t){"use strict";Object.defineProperty(a,"__esModule",{value:!0});a.default={URL:"https://api.hzchaoxiang.cn/",APPSECRET:"37650C59045F44899C1F8A2FCEC8B051"}}},["yabs"]);
+//# sourceMappingURL=config.86092e4f7855327086c1.js.map
