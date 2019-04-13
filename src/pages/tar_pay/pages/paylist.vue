@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div v-wechat-title="$route.meta.title"></div>
-    <div class="login_box">
+    <div class="login_box" :style="{backgroundImage:'url('+require('./../assets/img/phone.jpeg')+')'}">
       <div class="login_logo">
         <div class="logo_box">
           <img class="logo_img" src="./../assets/img/logo2.jpeg" alt="logo">
@@ -96,6 +96,8 @@ export default {
           width:100%;
           height:100%;
           border-radius:50%; 
+          margin-top: 4px;
+          margin-left: 2px;
         }
       } 
       .logo_title {
